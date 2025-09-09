@@ -9,7 +9,6 @@
 git clone https://github.com/kune-22/tkinter_todo.git
 python todo.py
 ```
-以下のエラーが出た際
-ModuleNotFoundError: No module named 'tkcalendar'
+以下のエラー`ModuleNotFoundError: No module named 'tkcalendar'`が出た際
 `pip install tkcalenda`
 でtkcalendaというライブラリをインストールしてから再度`python todo.py`で実行してみてください
